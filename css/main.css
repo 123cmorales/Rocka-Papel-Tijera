@@ -1,0 +1,44 @@
+body {
+  background-color: #75DDDD;
+  color: #09BC8A;
+}
+
+.selections {
+  display: flex;
+  justify-content: center;
+}
+
+.selection {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 100px;
+  transition: 10s;
+}
+
+.results {
+  margin-top: 20px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.result-score {
+  font-size: 100px;
+  color: #172A3A;
+}
+
+.result-selection {
+  opacity: 0.5;
+  font-size: 100px;
+  text-shadow: 2px 2px;
+}
+
+.result-selection.winner {
+  opacity: 10;
+  font-size: 100px;
+  text-shadow: 2px 2px;
+}
